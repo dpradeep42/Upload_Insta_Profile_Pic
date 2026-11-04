@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secret.txt
+
+# Logs
+*.log
+config/log/
+
+# Instabot runtime config, session, and cookie files
+config/
+*_uuid_and_cookie.json
+*cookie*.json
+cookie.txt
+cookies.txt
+*.cookies
+session.json
+*.session
